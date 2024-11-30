@@ -10,7 +10,8 @@
 
   <superproject name="platform/superproject" remote="aosp" revision="android-15.0.0_r5"/>
   <contactinfo bugurl="go/repo-bug" />
-
+    
+    <include name="manifests/pixels.xml" />
   <!-- BEGIN open-source projects -->
   <project path="build/make" name="platform/build" groups="pdk,sysui-studio" >
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
